@@ -1,0 +1,32 @@
+{
+  "name": "topggvoter",
+  "version": "1.0.0",
+  "description": "A simple tool to generate a discord nitro generator using axios and proxies u can generate as much u want this tool only works from December 16th, 2023 (3PM PST) to June 17th, 2024 (11:59PM PST).",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "cron": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alimawla69/Discord-OperaGX-Generator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alimawla69/Discord-OperaGX-Generator/issues"
+  },
+  "homepage": "https://github.com/alimawla69/Discord-OperaGX-Generator#readme",
+  "keywords": [
+    "probot",
+    "autodaily"
+  ],
+  "author": "Ali Mawla (_Luffy99)",
+  "mail": "business.alimawla69@gmail.com",
+  "donate": "https://patreon.com/alimawla69",
+  "website": "https://alimawla.xyz/",
+  "discrod_server": "https://discord.gg/HFZRWUC",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.2",
+    "uuid": "^9.0.1"
+  }
+}
