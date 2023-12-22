@@ -1,5 +1,5 @@
 # Discord nitro generator using operaGX
-  <img src="Screenshot_1.png" width="32.75%"><br>
+  <img src="Screenshot_1.png" width="100%"><br>
  <a href="https://github.com/alimawla69/Discord-OperaGX-Generator/"><img src="https://img.shields.io/github/last-commit/alimawla69/Discord-OperaGX-Generator?style=flat" /></a>
   <a href="https://github.com/alimawla69/Discord-OperaGX-Generator/stargazers"><img src="https://img.shields.io/github/stars/alimawla69/Discord-OperaGX-Generator?style=flat" /></a>
   <a href="https://github.com/alimawla69/Discord-OperaGX-Generator"><img src="https://visitor-badge.laobi.icu/badge?page_id=alimawla69.Discord-OperaGX-Generator" /></a>
