@@ -4,7 +4,7 @@
   <a href="https://github.com/alimawla69/Discord-OperaGX-Generator/stargazers"><img src="https://img.shields.io/github/stars/alimawla69/Discord-OperaGX-Generator?style=flat" /></a>
   <a href="https://github.com/alimawla69/Discord-OperaGX-Generator"><img src="https://visitor-badge.laobi.icu/badge?page_id=alimawla69.Discord-OperaGX-Generator" /></a>
  
-A tool to automatically claim daily from probot.io.
+A simple tool to generate a discord nitro generator using axios and proxies u can generate as much u want this tool only works from December 16th, 2023 (3PM PST) to June 17th, 2024 (11:59PM PST).
 
 * It's for education, I won't be responsible for any action you take with this script.
 * Don't forget to give the project a star!
