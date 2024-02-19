@@ -1,6 +1,6 @@
 const axios = require('axios');
 const fs = require('fs');
-const { v4: uuidv4 } = require('uuid');
+const crypto= require('crypto');
 const readline = require('readline');
 
 const a = '\x1b[31m(-)\x1b[0m';
@@ -24,16 +24,7 @@ function h() {
 
 async function k(l) {
     while (true) {
-        const m = "https://api.discord.gx.games/v1/direct-fulfillment";
-        const n = {
-            "Content-Type": "application/json",
-            "Sec-Ch-Ua": '"Opera GX";v="105", "Chromium";v="119", "Not?A_Brand";v="24"',
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 OPR/105.0.0.0",
-        };
-
-        const o = {
-            "partnerUserId": uuidv4()
-        };
+      
 
         try {
             let p;
@@ -41,8 +32,10 @@ async function k(l) {
                 const [q, r] = l.split('@');
                 const [s, t] = q.split(':');
                 const [u, v] = r.split(':');
-                p = await axios.post(m, o, {
-                    headers: n,
+                p = await axios.post('https://api.discord.gx.games/v1/direct-fulfillment',  {
+                    partnerUserId: crypto.randomUUID(),
+                 }, {
+                    headers: { "Origin": "https://www.opera.com",},
                     proxy: {
                         host: u,
                         port: v,
@@ -54,7 +47,11 @@ async function k(l) {
                     timeout: 5000
                 });
             } else {
-                p = await axios.post(m, o, { headers: n, timeout: 5000 });
+                p =  await axios.post('https://api.discord.gx.games/v1/direct-fulfillment', {
+                    partnerUserId: crypto.randomUUID(),
+                 },{ headers: {
+                    "Origin": "https://www.opera.com",
+                  },});
             }
 
             if (p.status === 200) {
